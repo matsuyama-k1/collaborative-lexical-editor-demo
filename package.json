@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start:db": "redis-server --port 6380",
+    "start:backend": "node ./server/src/server.js",
+    "start:frontend": "cd front && npm start",
+    "install:front": "cd front && npm install",
+    "install:server": "cd server && npm install",
+    "install:all": "npm run install:front && npm run install:server"
+  }
+}
