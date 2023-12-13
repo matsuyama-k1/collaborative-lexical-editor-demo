@@ -19,3 +19,6 @@ To resolve this, simply restart the backend after your initial connection to the
 npm run start:backend
 ```
 
+## Technical article (Japanese)
+https://qiita.com/kanta_matsu/items/958f0c69c858f504188a
+
