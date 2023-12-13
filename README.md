@@ -5,7 +5,7 @@ To install all necessary dependencies, run:
 npm run install:all
 ```
 If you have not installed Redis, please install Redis too.
-https://redis.io/docs/install/install-redis/install-redis-on-mac-os/
+https://redis.io/docs/install/install-redis
 ## Running the Application
 To start the application, execute the following commands:
 ```
