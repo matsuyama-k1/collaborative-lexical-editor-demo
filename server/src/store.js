@@ -1,10 +1,10 @@
-const { RedisPersistence } = require('y-redis');
+const { RedisPersistence } = require("y-redis");
 
-const Y = require('yjs');
+const Y = require("yjs");
 
 const config = {
   redisOpts: {
-    url: 'redis://localhost:6379',
+    url: "redis://localhost:6379",
   },
 };
 module.exports.persistence = new RedisPersistence(config);

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start:db": "redis-server --port 6380",
+    "start:db": "redis-server --port 6379",
     "start:backend": "node ./server/src/server.js",
     "start:frontend": "cd front && npm start",
     "install:front": "cd front && npm install",
